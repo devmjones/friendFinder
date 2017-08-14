@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Survey</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <div class="jumbotron">
+        <h1 class="text-center">Take the Survey and Find Out!</h1>
+    </div>
+</div>
+
+<form class="form-horizontal" style="margin: 50px">
+    <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Your Name (required)" required>
+        <label for="imgSrc">Image URL</label>
+        <input type="url" class="form-control" id="imgSrc" placeholder="Link to Image (required)" required>
+    </div>
+
+    <div class="form-group">
+        <table class="table table-bordered">
+            <thead>
+            <tr>
+                <th>My Question</th>
+                <th>Your Answer</th>
+            </tr>
+            <tr>
+                <td>I like cats</td>
+                <td>
+                    <label for="q1">Please Select</label>
+                    <select class="form-control" id="q1">
+                        <option value="1">1- Strongly Disagree</option>
+                        <option value="2">2- Disagree</option>
+                        <option value="3">3- Neutral</option>
+                        <option value="4">4- Agree</option>
+                        <option value="5">5- Strongly Agree</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>I like dogs</td>
+                <td>
+                    <label for="q2">Please Select</label>
+                    <select class="form-control" id="q2">
+                        <option value="1">1- Strongly Disagree</option>
+                        <option value="2">2- Disagree</option>
+                        <option value="3">3- Neutral</option>
+                        <option value="4">4- Agree</option>
+                        <option value="5">5- Strongly Agree</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>I like to read</td>
+                <td>
+                    <label for="q3">Please Select</label>
+                    <select class="form-control" id="q3">
+                        <option value="1">1- Strongly Disagree</option>
+                        <option value="2">2- Disagree</option>
+                        <option value="3">3- Neutral</option>
+                        <option value="4">4- Agree</option>
+                        <option value="5">5- Strongly Agree</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>I like to watch professional sports</td>
+                <td>
+                    <label for="q4">Please Select</label>
+                    <select class="form-control" id="q4">
+                        <option value="1">1- Strongly Disagree</option>
+                        <option value="2">2- Disagree</option>
+                        <option value="3">3- Neutral</option>
+                        <option value="4">4- Agree</option>
+                        <option value="5">5- Strongly Agree</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>I am active</td>
+                <td>
+                    <label for="q5">Please Select</label>
+                    <select class="form-control" id="q5">
+                        <option value="1">1- Strongly Disagree</option>
+                        <option value="2">2- Disagree</option>
+                        <option value="3">3- Neutral</option>
+                        <option value="4">4- Agree</option>
+                        <option value="5">5- Strongly Agree</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>I like hot weather</td>
+                <td>
+                    <label for="q6">Please Select</label>
+                    <select class="form-control" id="q6">
+                        <option value="1">1- Strongly Disagree</option>
+                        <option value="2">2- Disagree</option>
+                        <option value="3">3- Neutral</option>
+                        <option value="4">4- Agree</option>
+                        <option value="5">5- Strongly Agree</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>I like children</td>
+                <td>
+                    <label for="q7">Please Select</label>
+                    <select class="form-control" id="q7">
+                        <option value="1">1- Strongly Disagree</option>
+                        <option value="2">2- Disagree</option>
+                        <option value="3">3- Neutral</option>
+                        <option value="4">4- Agree</option>
+                        <option value="5">5- Strongly Agree</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>I enjoy sci-fi/fantasy</td>
+                <td>
+                    <label for="q8">Please Select</label>
+                    <select class="form-control" id="q8">
+                        <option value="1">1- Strongly Disagree</option>
+                        <option value="2">2- Disagree</option>
+                        <option value="3">3- Neutral</option>
+                        <option value="4">4- Agree</option>
+                        <option value="5">5- Strongly Agree</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>I like to party</td>
+                <td>
+                    <label for="q9">Please Select</label>
+                    <select class="form-control" id="q9">
+                        <option value="1">1- Strongly Disagree</option>
+                        <option value="2">2- Disagree</option>
+                        <option value="3">3- Neutral</option>
+                        <option value="4">4- Agree</option>
+                        <option value="5">5- Strongly Agree</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>I like to play board games</td>
+                <td>
+                    <label for="q10">Please Select</label>
+                    <select class="form-control" id="q10">
+                        <option value="1">1- Strongly Disagree</option>
+                        <option value="2">2- Disagree</option>
+                        <option value="3">3- Neutral</option>
+                        <option value="4">4- Agree</option>
+                        <option value="5">5- Strongly Agree</option>
+                    </select>
+                </td>
+            </tr>
+            </thead>
+        </table>
+        <div style="text-align: center">
+            <button type="submit" id="submitBtn" class="btn btn-primary">Submit</button>
+        </div>
+    </div>
+</form>
+
+<div id="bestiePopUp" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title"><strong>Your New Bestie is....</strong></h2>
+            </div>
+            <div class="modal-body">
+                <h2 id="bestieName"></h2>
+                <img id="bestiePic" src="#">
+            </div>
+            <div class="modal-footer">
+                <button type="button" id="closeModal" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
+
+<!-- BELOW CODE IS CRITICAL. IT HANDLES HOW FORM DATA IS SENT TO OUR SERVER -->
+<script type="text/javascript">
+
+  $("#submitBtn").on("click", function(event) {
+    event.preventDefault();
+
+    var scores = [];
+
+    scores.push($("#q1").val().trim());
+    scores.push($("#q2").val().trim());
+    scores.push($("#q3").val().trim());
+    scores.push($("#q4").val().trim());
+    scores.push($("#q5").val().trim());
+    scores.push($("#q6").val().trim());
+    scores.push($("#q7").val().trim());
+    scores.push($("#q8").val().trim());
+    scores.push($("#q9").val().trim());
+    scores.push($("#q10").val().trim());
+
+    var potentialFriend = {
+      name: $("#name").val().trim(),
+      imgSrc: $("#imgSrc").val().trim(),
+      scores: scores
+    };
+    console.log(potentialFriend);
+
+    $.post("/api/maybefriends", potentialFriend,
+      function(data) {
+        if (data) {
+          $("#bestieName").text(data.name);
+          $('#bestiePic').attr("src", data.imgSrc);
+          $("#bestiePopUp").modal('toggle');
+        }
+        else {
+          alert('You need to answer all the questions first.')
+        }
+      });
+
+    $("#name").val("");
+    $("#imgSrc").val("");
+    $("#q1_1").val("");
+    $("#q1_2").val("");
+    $("#q1_3").val("");
+    $("#q1_4").val("");
+    $("#q1_5").val("");
+    $("#q1_6").val("");
+    $("#q1_2").val("");
+    $("#q1_2").val("");
+  });
+</script>
